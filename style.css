@@ -106,7 +106,10 @@ body {
 	height: 50px;
 	text-align: center;
 }
-.weAreModest {
+.section {
+	padding: 80px 0;
+}
+/* .weAreModest {
 	padding-top: 25px;
 	padding-bottom: 15px;
 	padding-left: 25px;
@@ -117,40 +120,63 @@ body {
 	font-family: "Quattrocento Sans";
 	font-weight: 700;
 	text-transform: uppercase;
+	border-left: 10px solid #e1e6ea;
+	
+} */
+
+.weAreModest, .meetTheTeam , .lovely-work , .what-we-do , .features {
+	color: #292f36;
+    font-size: 36px;
+    font-weight: 700;
+    padding-left: 14px;
+    border-left: 10px solid #e1e6ea;
+    text-transform: uppercase;
 }
-.aboutModest{
+.aboutModest {
+	padding-top: 30px;
+}
+.row-About-Modest{
 	display: flex;
-	align-items: flex-start;
+	flex-direction: row;
 }
-.aboutModest2 div div {
+.row-About-Modest span {
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #000;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	margin-bottom: 20px;
+
 }
-.aboutModest2 div {
-	/* margin-bottom: 10px; */
-	padding-bottom: 10px;
-}
-.aboutModest2 div span {
+/* .col1 {
+	justify-content: space-around;
+} */
+/* .num-item {
 	color: white ;
-	/* line-height: 40px; */
+	line-height: 35px;
 	background-color: #23b7a4;
 	text-align: center;
-	border: 9px solid #23b7a4;	
-	margin-right: 10px;
-}
-.aboutModest2 div > p {
-	padding-left: 46px;
+	margin-right: 20px;
+	width: 40px;
+	height: 35px;
+} */
+
+
+
+.col2  p {
 	color: #a4aead;
+	/* margin-bottom: 20px; */
+}
+.col2 p span {
+	margin-bottom: 10px;
 }
 .aboutModest1 p {
 	color: #a4aead;
 	padding-bottom: 35px;
 }
 .socialNetworks {
-	display: flex;	
+	display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+	margin-bottom: 100px;
 }
 .socialNetworksItems {
 	background-color: #c8cdd0;
@@ -160,6 +186,165 @@ body {
 	line-height: 50px;
 	text-align: center;
 } 
+.row-About-Modest {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.mission-of-Modest {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.num-mission-of-Modest {
+	background-color: #23b7a4;
+	font-weight: 700;
+	margin-right: 16px;
+}
+.num-mission-of-Modest > p {
+	padding: 14px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.tittle-mission-of-Modest{
+text-transform: uppercase;
+color: #292f36;
+font-size: 18px;
+font-weight: 700;
+}
+.description-mission-of-Modest{
+	font-size: 16px;
+	color: #8d8f92;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.row-About-Modest {
+	display: flex;
+	flex-wrap: wrap;
+}
+.team, .pic-work {
+	padding: 80px 0;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.team-img {
+	width: 100%;
+}
+.member-of-team {
+	background-color: #e1e6ea;
+	align-self: center;
+	
+}
+.member_name {
+    margin-bottom: 8px;
+    color: #292f36;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-top: 18px;
+}
+.member_position {
+	padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8d8f92;
+    margin-bottom: 20px;
+}
+.pic-lovely-work {
+	margin-bottom: 30px;
+	height: 165px;
+	width: 224px;
+}
+.lovely-img {
+	width: 100%;
+}
+.about-lovely-work, .about-features {
+	height: 100%;
+	background-color: #8d8f92 ;
+}
+.work-button{
+	display: flex;
+    justify-content: center;
+}
+.work-btn {
+    margin-right: 11px;
+    height: 44px;
+    width: 146px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.items-what-we-do {
+	height: 210px;
+	width: 224px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-bottom: 90px;
+	flex-grow: inherit;
+	text-align: center;
+}
+.items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+.items1 {
+	padding-top: 80px;
+}
+.item_name, .features_title {
+	margin: 30px 0;
+    color: #292f36;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-transform: uppercase;
+}
+.item_description , .features_description {
+	font-size: 16px;
+    color: #8d8f92;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.items-what-we-do img{
+	width: 33%;
+}
+.features_title {
+	font-size: 15px;
+    color: #fff;
+}
+.features_description {
+	color: #dcdfe1;
+}
+.features-items {
+	margin-bottom: 90px;
+	height: 405px;
+	width: 262px;
+}
+.feature-img {
+	width: 100%;
+}
+.features-blocks {
+	display: flex;
+	flex-wrap: wrap;
+}
+.features-blocks {
+	padding: 80px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
 
 
 
@@ -187,15 +372,26 @@ body {
 		position: absolute;
 		top: 38.5px;	
 	}
-	.aboutModest {
-		display: flex;
-		flex-direction: column;
+	.team {
+		min-width: 787px;
+		max-width: 578px;
+		/* justify-content: space-around;
+		align-items: center; */
 	}
-	/* .header-row {
-		flex-direction: row;
+	.member-of-team {
+		margin-bottom: 10px;
+	}
+	.pic-work {
+		justify-content: space-between;
 		display: flex;
-	} */
-}
+		flex-wrap: wrap;
+		min-width: 760px;
+		max-width: 800px;
+	}
+	.items {
+		width: 657px;
+	}
+} 
 /* laptop */
 @media(min-width:992px){
 	.container{
@@ -213,15 +409,32 @@ body {
 	.aboutModest1 {
 		width: 60%;
 	}
-	.aboutModest2{
+	.row-About-Modest{
 		width: 40%;
 	}
 	.aboutModest {
 		display: flex;
 		flex-direction: row;
 	}
-
-	
+	.team {
+		display: flex;
+		
+		min-width: 788px;
+		max-width: 400px;
+		/* justify-content: space-around;
+		align-items: center; */
+		flex-grow: inherit;
+	}
+	.pic-work {
+		justify-content: space-between;
+		display: flex;
+		flex-wrap: wrap;
+		min-width: 760px;
+		max-width: 800px;
+	}	
+	.items {
+		width: 1200px;
+	}
 }
 /* desktop */
 @media(min-width:1200px){
@@ -237,6 +450,12 @@ body {
 		position: absolute;
 		top: 38.5px;	
 	}
+	.header-row {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		height: 80px;
+	}
 	.aboutModest {
 		display: flex;
 		flex-direction: row;
@@ -244,13 +463,19 @@ body {
 	.aboutModest1 {
 		width: 60%;
 	}
-	.aboutModest2{
+	.row-About-Modest{
 		width: 40%;
 	}
-
-	
-
-	
+	.team {
+		display: flex;
+		min-width: 1080px;
+		/* justify-content: space-around;
+		align-items: center;
+		flex-grow: inherit; */
+	}
+	.items {
+		flex-wrap: nowrap;
+	}
 }
 /* mobile */
 @media(max-width:767px) {
@@ -278,16 +503,48 @@ body {
 		position: absolute;
 		top: 56px;
 	}
-	.aboutModest {
-		display: flex;
-		flex-direction: column;
+	.member-of-team {
+		margin-bottom: 10px;
 	}
+	
 }
-@media (max-width:765px) and (min-width: 480px) {
-	.nav-menu {
-		justify-content: center;
+@media(min-width:657px) and (max-width:790px){
+	.items {
+		width: 657px; 
+	} 
+}
+
+
+
+body .current a {
+    border:2px solid #25b7a3 ;
+    border-radius: 4px;
+}
+@media (max-width:767px) {
+	.nav-mobile-menu {
+		display: block;
+		width: 15px;
+		height: 15px;
+		position: relative;
+	}
+	.nav-mobile-menu span {
+		height: 1px;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		right: 0;
+		transition: .25s easy-in-out;
 	}
 
 }
 
+.navigation {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	max-width: ;
 
+
+}

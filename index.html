@@ -20,17 +20,22 @@
 						<img src="images/logologo.png" alt=""></a>
 				</div>
 				<div class="col menu">
-					<nav>
-						<ul class="nav-menu">
+					<nav class="navigation hidden-menu">
+						<ul class="nav-menu" id="nav">
 							<li class="active"><a href="">Home</a></li>
-							<li><a href="">About</a></li>
-							<li><a href="">Work</a></li>
-							<li><a href="">1Team</a></li>
-							<li><a href="">Services</a></li>
-							<li><a href="">Features</a></li>
-							<li><a href="">Contact</a></li>
+							<li class="current"><a href="#about">About</a></li>
+							<li><a href="#work">Team</a></li>
+							<li><a href="#team">Work</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#features">Features</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
+					<div class="nav-mobile-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
 				</div>
 				<div class="col search">
 					<form action="">
@@ -42,13 +47,15 @@
 			</div>
 		</div>
 	</header>
-	<section class="slider">
+	<!-- <section class="slider">
 		<div>Slider</div>
-	</section>
-	<section>
-		<div class="weAreModest">We are modest.</div>
-		<div class="aboutModest">
-			<div  class="aboutModest1">
+	</section> -->
+	<section class="section" id="about">
+		<div class="weAreModest container">
+			<h2>We are modest.</h2>
+		</div>
+		<div class="aboutModest container">
+			<div class="aboutModest1">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam qui ut libero in tempora
 					cum veniam, ducimus nulla omnis, ab at maiores vero iure quia nobis esse? Pariatur, quam!
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate dolorum ullam quis culpa!
@@ -58,25 +65,46 @@
 					Laudantium accusantium, minus iste dolorum alias impedit laborum suscipit quos ipsa reiciendis
 					deserunt explicabo ipsum tenetur. Suscipit. Pariatur, quam!
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			</div>
+
+			<div class="row-About-Modest">
+				<div class="mission-of-Modest">
+					<div class="num-mission-of-Modest">
+						<p>01</p>
+					</div>
+					<div>
+						<div class="tittle-mission-of-Modest">dedication to the customers</div>
+						<div class="description-mission-of-Modest">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							In itaque mollitia quo qui quisquam et,
+							necessitatibus molestiae veritatis vitae aliquam vel soluta unde aspernatur.</div>
+					</div>
 				</div>
-			<div class="aboutModest2">
-				<div>
-					<div><span>01</span>dedication to the customers</div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In itaque mollitia quo qui quisquam et,
-						necessitatibus molestiae veritatis vitae aliquam vel soluta unde aspernatur.</p>
+				<div class="mission-of-Modest">
+					<div class="num-mission-of-Modest">
+						<p>02</p>
+					</div>
+					<div>
+						<div class="tittle-mission-of-Modest">working closely with our clients</div>
+						<div class="description-mission-of-Modest">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Maiores, soluta. </div>
+					</div>
 				</div>
-				<div>
-					<div><span>02</span>working closely with our clients</div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, soluta.</p>
-				</div>
-				<div>
-					<div><span>03</span>increase happiness</div>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolorum quibusdam eveniet quis ullam
-						vero!</p>
+				<div class="mission-of-Modest">
+					<div class="num-mission-of-Modest">
+						<p>03</p>
+					</div>
+					<div>
+						<div class="tittle-mission-of-Modest">increase happiness</div>
+						<div class="description-mission-of-Modest">Lorem ipsum dolor sit amet consectetur adipisicing
+							elit.
+							Sed dolorum quibusdam eveniet quis ullam vero!</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="socialNetworks">
+		<div class="socialNetworks container">
 			<a href="" class="socialNetworksItems"><img src="images/icon (8).png" alt="Facebook"></a>
 			<a href="" class="socialNetworksItems"><img src="images/icon (9).png" alt="Twitter"></a>
 			<a href="" class="socialNetworksItems"><img src="images/icon (4).png" alt="Facebook"></a>
@@ -85,6 +113,155 @@
 
 		</div>
 	</section>
+	<section class="section" id="team">
+		<div class="meetTheTeam container">
+			<h2>Meet the team.</h2>
+		</div>
+		<div class="team container">
+			<div class="member-of-team">
+				<img class="team-img" src="images/img (6).png" alt="">
+				<div class="member_name">Gloria Bromley</div>
+				<div class="member_position">CEO and Founder</div>
+			</div>
+			<div class="member-of-team">
+				<img class="team-img" src="images/img (5).png" alt="">
+				<div class="member_name">Paul Torres</div>
+				<div class="member_position">Head of Development</div>
+			</div>
+			<div class="member-of-team">
+				<img class="team-img" src="images/img (4).png" alt="">
+				<div class="member_name">Judith Gillette</div>
+				<div class="member_position">Graphic Desinger</div>
+			</div>
+			<div class="member-of-team">
+				<img class="team-img" src="images/img (3).png" alt="">
+				<div class="member_name">Delores Reed</div>
+				<div class="member_position">Client Service Director</div>
+			</div>
+		</div>
+	</section>
+	<section class="section about-lovely-work" id="work">
+		<div class="lovely-work container">
+			<h2>lovely work.</h2>
+		</div>
+		<div class="pic-work container">
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (7).png" alt="">
+			</div>
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (8).png" alt="">
+			</div>
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (9).png" alt="">
+			</div>
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (10).png" alt="">
+			</div>
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (11).png" alt="">
+			</div>
+			<div class="pic-lovely-work">
+				<img class="lovely-img" src="images/img (12).png" alt="">
+			</div>
+		</div>
+		<div class="work-button">
+			<button class="work-btn">Show me more</button>
+		</div>
+	</section>
+	<section class="section" id="services">
+		<div class="what-we-do container">
+			<h2>what we do.</h2>
+		</div>
+		<div class="about-items-what-we-do">
+			<div class="items container items1">
+
+				<div class="items-what-we-do">
+					<img src="images/icon (12).png" alt="">
+					<div class="item_name">EASY THEME SETUP</div>
+					<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+						Maecenas a justo nec velit egestas fermentum.</div>
+				</div>
+				<div class="items-what-we-do">
+					<img src="images/icon (14).png" alt="">
+					<div class="item_name">PIXEL PERFECT DESIGN</div>
+					<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+						Maecenas a justo nec velit egestas fermentum.</div>
+				</div>
+
+				<div class="items-what-we-do">
+					<img src="images/icon (11).png" alt="">
+					<div class="item_name">RESPONSIVE DISPLAY</div>
+					<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+						Maecenas a justo nec velit egestas fermentum.</div>
+				</div>
+				<div class="items-what-we-do">
+					<img src="images/icon (13).png" alt="">
+					<div class="item_name">24/7 SUPPORT</div>
+					<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+						Maecenas a justo nec velit egestas fermentum.</div>
+				</div>
+			</div>
+		</div>
+		<div class="items container " >
+
+			<div class="items-what-we-do">
+				<img src="images/icon (12).png" alt="">
+				<div class="item_name">EASY THEME SETUP</div>
+				<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+					Maecenas a justo nec velit egestas fermentum.</div>
+			</div>
+			<div class="items-what-we-do">
+				<img src="images/icon (14).png" alt="">
+				<div class="item_name">PIXEL PERFECT DESIGN</div>
+				<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+					Maecenas a justo nec velit egestas fermentum.</div>
+			</div>
+
+			<div class="items-what-we-do">
+				<img src="images/icon (11).png" alt="">
+				<div class="item_name">RESPONSIVE DISPLAY</div>
+				<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+					Maecenas a justo nec velit egestas fermentum.</div>
+			</div>
+			<div class="items-what-we-do">
+				<img src="images/icon (13).png" alt="">
+				<div class="item_name">24/7 SUPPORT</div>
+				<div class="item_description">Nunc mattis lorem in leo lobortis, ut venenatis justo commodo.
+					Maecenas a justo nec velit egestas fermentum.</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="section about-features" id="features">
+		<div class="features container">
+			<h2>Features.</h2>
+		</div>
+		<div class="features-blocks container">
+			<div class="features-items">
+				<img class="feature-img" src="images/img (13).png" alt="">
+				<div class="features_title">PRODUCT DESIGN: EAMES CHAIRS</div>
+				<div class="features_description">Eames designs are certainly iconic. Everyone of us know at least two
+					or three of their famous chairs. I would even risk saying that most of us dream about having a nice
+					Eames.</div>
+			</div>
+			<div class="features-items">
+				<img class="feature-img" src="images/img (14).png" alt="">
+				<div class="features_title">ELEGANT AND COLORFUL LOGOS</div>
+				<div class="features_description">I’ve always found logo design to be one of the most challenging things
+					to get right. There’s so much that a logo can say about a brand without actually saying it.</div>
+			</div>
+			<div class="features-items">
+				<img class="feature-img" src="images/img (15).png" alt="">
+				<div class="features_title">A SHOWCASE OF CREATIVE</div>
+				<div class="features_description">It’s always interesting to see another designer’s take on a famous
+					website, app or even physical product. Different designers add their own personality and style.
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="jquery.nav.js"></script>
+	<script src="app.js"></script>
 
 </body>
 
